@@ -1,0 +1,78 @@
+# Ignorar archivos generados por Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos relacionados con Python
+*.pyc
+*.pyo
+*.pyd
+*.py[co]
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos de configuración del entorno virtual
+venv/
+.env/
+env/
+*.venv
+*.env
+
+# Configuración específica de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pid
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Configuración de Jupyter Notebook
+.profile
+nbproject/
+*.ipynb~ # Backups automáticos de Jupyter
+
+# Archivos creados por herramientas de datos y bibliotecas
+.DS_Store
+Thumbs.db
+*.sqlite3
+*.db
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.csv~
+*.xlsx~
+*.xls~
+*.sav
+
+# Configuración de herramientas de versionado
+*.coverage
+.coverage.*
+.cache
+.tox/
+.nox/
+mypy_cache/
+pytest_cache/
+htmlcov/
+
+# Archivos de paquetes pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+.virtual_documents/
+
+data/
+
+**/.ipynb_checkpoints/
