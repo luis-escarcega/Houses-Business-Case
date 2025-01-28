@@ -82,8 +82,8 @@ def print_stats_for_categorical_feature(df, categorical_feature):
     
     print(f"Number of categories: {number_categories}")
     print(f"Most common category: {most_common_level}")
-    print(f"Highest proportion of positives: {highest_prop_cat}")
-    print(f"Lowest proportion of positives: {lowest_prop_cat}")
+    print(f"Highest {c.target}: {highest_prop_cat}")
+    print(f"Lowest {c.target}: {lowest_prop_cat}")
     print(f"Herfindahl–Hirschman index: {hhi * 100 :.2f}%")
     print(f"R2: {r2 * 100 :.2f}%")
     print(f"R2 confidence interval: ({ci_lower * 100 :.2f}%, {ci_upper * 100 :.2f}%)")

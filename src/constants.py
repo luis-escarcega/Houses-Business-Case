@@ -7,5 +7,10 @@ seed = 42
 train_data_v1 = "../data/train_data_v1.pkl"
 test_data_v1 = "../data/test_data_v1.pkl"
 
-continuas = "../data/continuas.pkl"
-discretas = "../data/discretas.pkl"
+numericas = "../data/numericas.pkl"
+categoricas = "../data/categoricas.pkl"
+drop = "../data/drop.pkl"
+
+train_data_v2 = "../data/train_data_v2.pkl"
+transformer = "../data/transformer.pkl"
+scaler = "../data/scaler.pkl"
